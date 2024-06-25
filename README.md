@@ -1,5 +1,4 @@
 PROJECT TITLE:
-
 CREATE A TOKEN
 
 
@@ -17,21 +16,15 @@ REQUIREMENTS/DESCRIPTION:
        to the amount that is supposed to be burned.
 
 
-contract MyToken {
 
-    // public variables here
+ENVIRONMENT
 
-    // mapping variable here
-
-    // mint function
-
-    // burn function
-
-}
+This code we are running on the online Solidity IDE that is https://remix.ethereum.org/ here we'll perform the code. as we are on the remix website just by clicking on the start coding we'll able to do coding in Solidity.
 
 EXECUTING PROGRAM:
 # ETH-assesment code
-// SPDX-License-Identifier: MIT
+
+```// SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken {
 
@@ -48,10 +41,7 @@ contract MyToken {
           totalSupply += _value;
           balances[_address] += _value;
         }
-
-
-
-    // burn function
+     // burn function
     function burn (address _address , uint _value) public {
         if(balances[_address] >= _value) {
         totalSupply -= _value;
@@ -62,6 +52,13 @@ contract MyToken {
     }
     }
 }
+```
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the ("Compile "the name of the file" ") for ex. comple first.sol button. Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "first.sol" contract from the dropdown menu, and then click on the "Deploy" button. then u can see a the below of the option ' Deployed/Unpinned Contracts ' expand it and balances mint burn etc and now u can see our code is ready to run .
+
+AUTHORS
+
+Contributed by name : Ishi Singla
+Email ID : ishisingla181@gmail.com
 
 GITHUB Link :
 https://github.com/Ishi181/ETH-assesment/blob/main/README.md%20ETH
