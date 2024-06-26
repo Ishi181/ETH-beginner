@@ -1,8 +1,8 @@
-PROJECT TITLE:
+# PROJECT TITLE
 CREATE A TOKEN
 
-
-REQUIREMENTS/DESCRIPTION:
+# DESCRIPTION
+REQUIREMENTS:
 
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
@@ -16,15 +16,17 @@ REQUIREMENTS/DESCRIPTION:
        to the amount that is supposed to be burned.
 
 
+# Getting Started
 
-ENVIRONMENT
+## ENVIRONMENT
 
 This code we are running on the online Solidity IDE that is https://remix.ethereum.org/ here we'll perform the code. as we are on the remix website just by clicking on the start coding we'll able to do coding in Solidity.
 
-EXECUTING PROGRAM:
-# ETH-assesment code
+## EXECUTING PROGRAM
+ETH-assesment code
 
-```// SPDX-License-Identifier: MIT
+```
+// SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken {
 
@@ -55,7 +57,7 @@ contract MyToken {
 ```
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the ("Compile "the name of the file" ") for ex. comple first.sol button. Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "first.sol" contract from the dropdown menu, and then click on the "Deploy" button. then u can see a the below of the option ' Deployed/Unpinned Contracts ' expand it and balances mint burn etc and now u can see our code is ready to run .
 
-AUTHORS
+# AUTHORS
 
 Contributed by name : Ishi Singla
 Email ID : ishisingla181@gmail.com
@@ -66,5 +68,6 @@ https://github.com/Ishi181/ETH-assesment/blob/main/README.md%20ETH
 Loom Video link :
 https://www.loom.com/share/3df26fe8605046518e33c9f13a1cfa5d
 
-LICENSE 
-This project is licensed under the // SPDX-License-Identifier: MIT License - see the LICENSE.md file for details
+
+# LICENSE 
+This project is licensed under the // SPDX-License-Identifier: MIT License - see the LICENSE.md file for details.
